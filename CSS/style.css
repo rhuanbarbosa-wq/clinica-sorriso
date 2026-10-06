@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f7ff;
+    color: #1a2b3c;
+}
+
+header {
+    background-color: #0f4c81;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-navegacao ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #a8d5e5;
+    font-weight: 500;
+}
+
+#cabecalho p {
+    color: #d9ebf9;
+}
+
+main {
+    padding: 30px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    background-color: #d9ebf9;
+    color: #0f4c81;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #0f4c81;
+    border-radius: 6px;
+}
+
+#banner h2 {
+    margin-bottom: 10px;
+}
+
+#banner img {
+    width: 200px;
+    height: 200px;
+}
+
+#enunciado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #0f4c81;
+}
+
+#servicos {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.servico {
+    background-color: #ffffff;
+    color: #1a2b3c;
+    padding: 15px;
+    width: 32%;
+    border-radius: 6px;
+    text-align: center;
+    border: 2px solid #0f4c81;
+}
+
+.servico img {
+    width: 100%;
+    border-radius: 4px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.servico h3 {
+    margin-top: 10px;
+    color: #0f4c81;
+}
+
+.servico p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #0f4c81;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 2px solid #0f4c81;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold; 
+
+}
